@@ -17,7 +17,7 @@ age = st.number_input("Age",1,120)
 
 if st.button("Predict"):
 
-    data = np.array([[preg,glucose,bp,skin,insulin,bmi,dpf,age]])
+    data = np.array([[preg, glucose, bp, skin, insulin, bmi, dpf, age]])
 
     prediction = model.predict(data)
 
